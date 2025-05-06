@@ -1,3 +1,6 @@
+from collections import deque
+
+
 class Solution:
     def findOrder(self, n: int, prerequisites: List[List[int]]) -> List[int]:
         sorted_order = []
